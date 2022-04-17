@@ -218,10 +218,10 @@ main{
 .place-of-work-section{
     margin: 40px 0;
     background-color: red;
-    min-height: 300px;
+    min-height: 200px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -232,12 +232,15 @@ main{
 
 .place-of-work-section h2{
     color: white;
+    font-size: 20px;
 }
 
 .work-place-wrapper{
     text-align: center;
     margin: 40px 0;
-    /* display: flex; */
+    display: flex;
+    justify-content: space-around;
+
 
 }
 
@@ -487,7 +490,8 @@ margin-bottom: 10px;
         border-radius: 10px;
         font-size: 25px;
         transform-origin: 0% 0%;
-        transform: translate(150%, 0);
+        /* transform: translate(150%, 0); */
+        display: none;
         transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
         text-align: center;
         transition: 0.8s;
@@ -573,7 +577,8 @@ margin-bottom: 10px;
       }
 
       #hamburger input:checked ~ ul {
-        transform: none;
+        /* transform: none; */
+        display: flex;
       }
       
     .nav-link{
@@ -595,17 +600,23 @@ margin-bottom: 10px;
         width: 100%;
         height: auto;
     }
+
+    .work-place-wrapper{
+        flex-direction: column;
+    }
+    
     .project-card-wrapper{
         flex-direction: column;
-        width: 90%;
+        width: 80%;
     }
+
     .project-card{
         box-shadow:
             0 10px 25px rgba(0, 0, 0, 0.2);
     }
     .service-card-wrapper{
         flex-direction: column;
-        width: 90%;
+        width: 80%;
     }
     .form-group input{
         width: 250px;
