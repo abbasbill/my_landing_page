@@ -9,17 +9,27 @@ DOCTYPE html>
     <title>PORTFOLIO</title>
   </head>
   <body>
-    <header>
+    <header class="header">
+
       <!--Navigation section-->
-      <section class="header-content-wrapper">
-        <div class="logo">SXZQUARE</div>
-        <nav class="navlinks-wrapper">
-          <a href="#" class="nav-link active">Home</a>
-          <a href="#about" class="nav-link">About</a>
-          <a href="#projects" class="nav-link">Projects</a>
-          <a href="#contact" class="nav-link">Contact</a>
+      
+      <div class="logo">SXZQUARE</div>
+        
+        <nav class="nav-bar">          
+          <div id="hamburger">
+            <input type="checkbox">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        
+            <ul id="nav-menu">
+                <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+          </div>
         </nav>
-      </section>
 
       <!--HERO SECTION-->
       <section class="hero-wrapper">
@@ -28,8 +38,8 @@ DOCTYPE html>
           alt="sxzquare profile picture"
           class="profile-image"
         />
-        <h2 class="fullname">Billiamin Ajani Abbas</h2>
-        <p class="brief">I am a Software Engineer</p>
+        <h2 class="fullname">Billiamin Abbas</h2>
+        <p class="brief">I am a Software Developer</p>
 
         <section class="hero-media-wrapper">
           <!--TWITTER SVG-->
@@ -125,7 +135,7 @@ DOCTYPE html>
             <section class="card-content">
               <h3 class="project-title">First Web page</h3>
               <p class="project-brief">
-                my first webpage build with HTML and CSS
+                my first webpage built with HTML and CSS
               </p>
             </section>
 
@@ -376,5 +386,5 @@ DOCTYPE html>
         </section>
       </section>
     </main>
-  </body>
+</body>
 </html>
