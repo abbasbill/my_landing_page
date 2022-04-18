@@ -9,7 +9,7 @@ DOCTYPE html>
     <title>PORTFOLIO</title>
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="home">
 
       <!--Navigation section-->
       
@@ -23,7 +23,7 @@ DOCTYPE html>
             <span class="bar"></span>
         
             <ul id="nav-menu">
-                <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
                 <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
                 <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
                 <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
@@ -229,7 +229,7 @@ DOCTYPE html>
             <section class="card-content">
               <h3 class="project-title">Web Scraper</h3>
               <p class="project-brief">
-                A web scraper in Python that will scrape Wikipedia pages.
+                A web scraper that scrapes Wikipedia pages.
               </p>
             </section>
 
@@ -274,10 +274,6 @@ DOCTYPE html>
             <label for="html-progress">PYTHON:</label>
             <progress id="html-progress" class="stack-progress" value="95" max="100">95%</progress>
           </div>
-    
-       
-       <!-- <section class="stack-group"> -->
-
           <div class="stack-progress-wrapper">
             <label for="html-progress">SQL:</label>
             <progress id="html-progress" class="stack-progress" value="90" max="100">90%</progress>
@@ -292,11 +288,10 @@ DOCTYPE html>
             <label for="html-progress">DJANGO:</label>
             <progress id="html-progress" class="stack-progress" value="25" max="100">35%</progress>
           </div>
-
-        <!-- </section> -->
       </section>
-
-      <!--SERVICE SECTION-->
+    </section>
+    
+    <!--SERVICE SECTION-->
       <section class="section service-section">
         <h2>Services</h2>
 
@@ -321,9 +316,11 @@ DOCTYPE html>
           </div>                                      
           </section>
       </section>
+      
+
+  <!--------------------------------------------------------------------------------- -->
 
       <!--WORK WITH ME SECTION-->
-
       <section class="section form-section" id="contact">
         <h2>Work With Me</h2>
 
@@ -390,6 +387,11 @@ DOCTYPE html>
           </svg></a> 
         </section>
       </section>
+
+      
+      <section class=" section up"><a href="#home"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+        <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+      </svg></a></section>
     </main>
 </body>
 </html>
